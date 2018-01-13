@@ -1,0 +1,93 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+background: url("Roses_Light_Blue_450704.jpg");
+font-family: "Times New Roman", Times, serif;
+}
+
+
+/*-- barra de inicio----- */
+
+.barradeinicio{
+ position: fixed;
+ display: flex;
+ z-index: 1;
+ background-color: rgba(0, 0, 53, 0.7);
+ width: 100%;
+ height: 60px;
+ transition: 0.5s;
+}
+
+.barradeinicio:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.botonbarra{
+  display: flex;
+  align-items: center;
+}
+
+.botonbarra:hover{
+  background-color: rgba(0, 0, 53, 0.7);
+  transition: 0.5s;
+}
+
+.menu2{
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.imgface2{
+  float: right;
+}
+
+.imgface{
+  width: 60px;
+}
+
+/*--FIN barra de inicio----- */
+
+.encuadrado1{
+  height: 500px;
+  width: 100%;
+  z-index: auto;
+}
+
+.encuadrado2{
+  background-image: url("fondomaderablanca.jpg");
+  height: 400px;
+  width: 100%;
+}
+
+.titulo{
+  padding: 200px;
+  font-size: 700%;
+  font-style: oblique;
+  font-weight: bold;
+  color: rgba( 0, 135, 255, 1 );
+  text-shadow:-6px 6px 4px #000000;
+}
+
+/*--formuñario--*/
+
+.formulario1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.tituloconsulta{
+  padding: 15px;
+  padding-bottom: 40px;
+  font-size: 300%;
+  text-shadow:-6px 6px 4px #000000;
+}
